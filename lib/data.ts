@@ -7,7 +7,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/taimooralam870/",
   location: "Chakwal, Punjab, Pakistan",
   timezone: "Asia/Karachi",
-  cv: "https://drive.google.com/file/d/1cvrSMNEYWNt9sLgntPKCnbx9QLo7GWZr/view?usp=drive_link",
+  cv: "https://drive.google.com/file/d/1Z50gM0exFG3AQUqaO9AXhlu9Syh2lSk4/view?usp=sharing",
 };
 
 export const roles = [
