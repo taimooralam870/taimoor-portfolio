@@ -4,10 +4,10 @@ export const profile = {
   email: "taimooralam870@gmail.com",
   phone: "+92 317 5992862",
   whatsapp: "https://wa.me/923175992862",
-  linkedin: "https://www.linkedin.com/in/taimoor-alam-79a0592b0/",
+  linkedin: "https://www.linkedin.com/in/taimooralam870/",
   location: "Chakwal, Punjab, Pakistan",
   timezone: "Asia/Karachi",
-  cv: "/Taimoor_Alam_CV.pdf",
+  cv: "https://drive.google.com/file/d/1cvrSMNEYWNt9sLgntPKCnbx9QLo7GWZr/view?usp=drive_link",
 };
 
 export const roles = [

@@ -28,7 +28,7 @@ export default function CommandPalette() {
       { id: "mail", label: "Send an email", hint: "↗", group: "Contact", run: () => (window.location.href = `mailto:${profile.email}`) },
       { id: "wa", label: "Message on WhatsApp", hint: "↗", group: "Contact", run: () => window.open(profile.whatsapp, "_blank") },
       { id: "li", label: "Open LinkedIn", hint: "↗", group: "Contact", run: () => window.open(profile.linkedin, "_blank") },
-      { id: "cv", label: "Download CV (PDF)", hint: "↓", group: "Contact", run: () => window.open(profile.cv, "_blank") },
+      { id: "cv", label: "View CV", hint: "↗", group: "Contact", run: () => window.open(profile.cv, "_blank") },
       { id: "fun", label: "Surprise me", hint: "✦", group: "Fun", run: () => window.dispatchEvent(new Event("confetti")) },
     ],
     [],

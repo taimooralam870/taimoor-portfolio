@@ -12,7 +12,7 @@ import { copyEmail } from "./toast";
 const links = [
   { label: "LinkedIn", href: profile.linkedin },
   { label: "WhatsApp", href: profile.whatsapp },
-  { label: "Download CV", href: profile.cv, download: true },
+  { label: "View CV", href: profile.cv },
 ];
 
 export default function Contact() {
@@ -106,12 +106,11 @@ export default function Contact() {
                   <li key={l.label}>
                     <a
                       href={l.href}
-                      target={l.download ? undefined : "_blank"}
+                      target="_blank"
                       rel="noreferrer"
-                      download={l.download || undefined}
                       className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-3 text-sm transition-colors hover:border-accent hover:bg-accent hover:text-black"
                     >
-                      {l.label} <span aria-hidden>{l.download ? "↓" : "↗"}</span>
+                      {l.label} <span aria-hidden>↗</span>
                     </a>
                   </li>
                 ))}
